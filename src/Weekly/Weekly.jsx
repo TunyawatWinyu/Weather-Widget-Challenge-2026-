@@ -39,7 +39,7 @@ const Weekly = ({ daily, weatherIcons }) => {
               <button
                 key={i}
                 onClick={() => setPage(i)}
-                className={`w-3 h-1 rounded-full ${i === page ? "bg-gray-800" : "bg-gray-300"}`}
+                className={`w-3 h-1 rounded-full cursor-pointer ${i === page ? "bg-gray-800" : "bg-gray-300"}`}
               ></button>
             ))}
           </div>
