@@ -13,8 +13,8 @@ const Hourly = ({ hourly, weatherIcons }) => {
 
   return (
     <>
-      <div className="hour-weather my-8 w-120">
-        <div className="flex flex-col shadow-sm px-9 py-9 rounded-4xl">
+      <div className="hour-weather my-8 w-120 ">
+        <div className="flex flex-col shadow-md px-9 py-9 rounded-4xl bg-gray-50">
           {/* riga degli orari */}
           <div className="flex flex-row justify-between mb-4">
             {currentItems.slice(0, 5).map((h, i) => (

@@ -14,8 +14,8 @@ const Weekly = ({ daily, weatherIcons }) => {
   );
   return (
     <>
-      <div className="weekly-weather my-4 w-120">
-        <div className="flex flex-col w-120 h-55 shadow-sm px-9 py-9 rounded-4xl">
+      <div className="weekly-weather my-4 w-120 ">
+        <div className="flex flex-col w-120 h-55 shadow-md px-9 py-9 rounded-4xl bg-gray-50">
           {/* riga dei giorni */}
           <div className="flex w-full justify-start gap-12.5 mb-4">
             {currentItems.slice(0, 5).map((d, i) => {

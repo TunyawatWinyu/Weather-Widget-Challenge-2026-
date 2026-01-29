@@ -22,7 +22,7 @@ const Current = ({ hourly, weatherIcons, location }) => {
 
   return (
     <div
-      className={`Localtion flex items-center justify-between w-120 shadow-sm px-9 py-9 rounded-4xl overflow-hidden bg-gradient-to-r from-gray-100 to-gray-200`}
+      className={`Localtion flex items-center justify-between w-120 shadow-md px-9 py-9 rounded-4xl overflow-hidden bg-gradient-to-r from-gray-100 to-gray-200`}
     >
       <div>
         <h1 className="text-6xl font-medium mb-2">
