@@ -12,7 +12,7 @@ La località viene data come parametro al componente e non è modificabile da pa
 
 - **JavaScript (ES6+)**
 - **React.js**
-- **TailWindCss
+- **TailWindCss**
 - **Open-Meteo API e BigDataCloud API** (https://open-meteo.com/) per ottenere i dati sul meteo e (https://www.bigdatacloud.com/) per ottenere i dati del geolocalizzazione;
 
 ## Come si clona e si fa partire il progetto
